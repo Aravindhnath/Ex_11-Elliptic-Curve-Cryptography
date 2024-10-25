@@ -22,7 +22,7 @@ Compute the shared secret
 
 shared_secret = private_key * public_key_received.
 # PROGRAM:
-```
+```c
 #include <stdio.h>
 
 // A simple structure to represent points on the elliptic curve
@@ -121,11 +121,11 @@ int main() {
     } else {
         printf("Key exchange failed. Shared secrets do not match.\n");
     }
-
+    printf("Done by Aravindhnath - 212222100005");
     return 0;
 }
 ```
 # OUTPUT:
-![Screenshot 2024-10-17 081042](https://github.com/user-attachments/assets/d1576cd1-d4df-4561-996c-dc7a2918719e)
+![Screenshot 2024-10-17 081042](Op1-cry11.png)
 # RESULT:
 The program for Elliptic Curve Cryptography (ECC) was executed successfully, and both Alice and Bob computed the same shared secret.
